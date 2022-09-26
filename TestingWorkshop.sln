@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.WebApp.Tests.Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.WebApp.Auto", "2.IntegrationTesting\2.UiTesting\src\Customers.WebApp.Auto\Customers.WebApp.Auto.csproj", "{56CCAF5B-5892-4880-BC55-5A04B3934E99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingCalculator.Tests", "1.UnitTesting\1.Introduction\AmazingCalculator.Tests\AmazingCalculator.Tests.csproj", "{F0D1DD8D-0615-4439-9852-07DB7E111F7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +108,7 @@ Global
 		{71EA81E6-E986-40B7-83CF-28D5374EE4FC} = {10B87A0C-E1AA-48FE-8490-746AA459D270}
 		{F960440C-0FDD-4044-8F22-C9EB43B7D3E9} = {1562EA2B-4182-4C05-A945-05E6F9AA0DA2}
 		{56CCAF5B-5892-4880-BC55-5A04B3934E99} = {10B87A0C-E1AA-48FE-8490-746AA459D270}
+		{F0D1DD8D-0615-4439-9852-07DB7E111F7D} = {9301C351-1CC9-473B-AF75-845194B5AFAE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{60CB6634-1FB5-4133-A4D3-BAF4978A913E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -164,5 +167,9 @@ Global
 		{56CCAF5B-5892-4880-BC55-5A04B3934E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56CCAF5B-5892-4880-BC55-5A04B3934E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56CCAF5B-5892-4880-BC55-5A04B3934E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D1DD8D-0615-4439-9852-07DB7E111F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D1DD8D-0615-4439-9852-07DB7E111F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D1DD8D-0615-4439-9852-07DB7E111F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D1DD8D-0615-4439-9852-07DB7E111F7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
