@@ -1,4 +1,5 @@
-﻿using Dapper;
+﻿using System.Diagnostics.CodeAnalysis;
+using Dapper;
 using ForeignExchange.Api.Database;
 using ForeignExchange.Api.Models;
 

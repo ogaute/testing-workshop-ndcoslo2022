@@ -21,6 +21,7 @@ public class CalculatorTests
 
     [Theory]
     [InlineData(5, 5, 0)]
+    [InlineData(10, 5, 5)]
     public void Test_Subtract(int first, int second, int expected)
     {
         // Arrange
@@ -35,6 +36,7 @@ public class CalculatorTests
 
     [Theory]
     [InlineData(1, 1, 1)]
+    [InlineData(2, 5, 10)]
     public void Test_Multiply(int first, int second, int expected)
     {
         // Arrange
