@@ -1,4 +1,6 @@
 ﻿using System.Diagnostics;
+using ForeignExchange.Api.Database;
+using ForeignExchange.Api.Logger;
 using ForeignExchange.Api.Models;
 using ForeignExchange.Api.Repositories;
 using ForeignExchange.Api.Validation;
@@ -8,9 +10,9 @@ namespace ForeignExchange.Api.Services;
 public class QuoteService : IQuoteService
 {
     private readonly IRatesRepository _ratesRepository;
-    private readonly ILogger<QuoteService> _logger;
+    private readonly ILoggerAdapter<QuoteService> _logger;
 
-    public QuoteService(IRatesRepository ratesRepository, ILogger<QuoteService> logger)
+    public QuoteService(IRatesRepository ratesRepository, ILoggerAdapter<QuoteService> logger)
     {
         _ratesRepository = ratesRepository;
         _logger = logger;
