@@ -2,9 +2,16 @@
 
 internal class Greeter
 {
+    private readonly IDateTimeProvider _dateTimeProvider;
+
+    internal Greeter(IDateTimeProvider dateTimeProvider)
+    {
+        _dateTimeProvider = dateTimeProvider;
+    }
+
     internal string GenerateGreetText()
     {
-        var dateTimeNow = DateTime.Now;
+        var dateTimeNow = _dateTimeProvider.Now;
         return dateTimeNow.Hour switch
         {
             >= 5 and < 12 => "Good morning",
