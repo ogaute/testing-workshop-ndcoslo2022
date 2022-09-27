@@ -87,6 +87,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyApp.Consumer", "1.Uni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyApp.Tests.Unit", "1.UnitTesting\5.Refactoring\tests\LegacyApp.Tests.Unit\LegacyApp.Tests.Unit.csproj", "{19A57A55-8FB2-445A-A4D4-7A8AD6408394}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeignExchange.Api", "2.IntegrationTesting\1.ApiTesting\src\ForeignExchange.Api\ForeignExchange.Api.csproj", "{16EA0AE0-9865-4B63-82BF-DE4EB727F565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeignExchange.Api.Tests.Integration", "2.IntegrationTesting\1.ApiTesting\tests\ForeignExchange.Api.Tests.Integration\ForeignExchange.Api.Tests.Integration.csproj", "{1DF26190-F22A-4D5C-9A9D-9E6F5B89ECA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +137,8 @@ Global
 		{D496AF03-17FE-4ED1-9E3E-8D46C282A363} = {63D36700-BFD3-4714-8B44-818BDE11C609}
 		{B3140595-FDBB-47D3-B761-868775A394BC} = {63D36700-BFD3-4714-8B44-818BDE11C609}
 		{19A57A55-8FB2-445A-A4D4-7A8AD6408394} = {91630FB7-51F9-4334-8D9F-81DC78295BE4}
+		{16EA0AE0-9865-4B63-82BF-DE4EB727F565} = {DF12A6F7-7E46-4D44-A305-38E81E80A7CC}
+		{1DF26190-F22A-4D5C-9A9D-9E6F5B89ECA4} = {D8D7B813-7EF2-46F1-9729-1B05C5FF387B}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8247F9E4-7777-46C5-AD3F-909CFFAA8761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -207,5 +213,13 @@ Global
 		{19A57A55-8FB2-445A-A4D4-7A8AD6408394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19A57A55-8FB2-445A-A4D4-7A8AD6408394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19A57A55-8FB2-445A-A4D4-7A8AD6408394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16EA0AE0-9865-4B63-82BF-DE4EB727F565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16EA0AE0-9865-4B63-82BF-DE4EB727F565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16EA0AE0-9865-4B63-82BF-DE4EB727F565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16EA0AE0-9865-4B63-82BF-DE4EB727F565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF26190-F22A-4D5C-9A9D-9E6F5B89ECA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF26190-F22A-4D5C-9A9D-9E6F5B89ECA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF26190-F22A-4D5C-9A9D-9E6F5B89ECA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF26190-F22A-4D5C-9A9D-9E6F5B89ECA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
