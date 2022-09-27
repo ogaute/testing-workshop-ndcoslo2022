@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeignExchange.Api", "2.In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeignExchange.Api.Tests.Integration", "2.IntegrationTesting\1.ApiTesting\tests\ForeignExchange.Api.Tests.Integration\ForeignExchange.Api.Tests.Integration.csproj", "{1DF26190-F22A-4D5C-9A9D-9E6F5B89ECA4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.PerformanceTesting", "3.PerformanceTesting", "{AF3EB00E-1946-43A1-A62D-03CC272506A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
